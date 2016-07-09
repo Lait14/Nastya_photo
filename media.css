@@ -1,0 +1,204 @@
+
+@media only screen and (max-width: 1920px) {
+    
+}
+@media only screen and (max-width: 1280px) {
+  
+}
+@media only screen and (max-width: 981px) {
+    .right_column{
+    	margin:40px 40px 40px 0;
+    }
+
+.col-md-4,.col-sm-4{
+	position: static !important;
+	
+} 
+ #mobile-header {
+        display: block;
+    }
+}
+.head {
+    margin: 65px auto 15px;
+}
+.fa-bars{
+    left:initial;
+    color:#000;
+    right: 105px;
+top: 66px;
+}
+.right_column{
+    margin: 0px 40px 40px 0;
+width: 100%;
+text-align: center;
+}
+
+.thumb img{
+width: 76%;
+height: 160px;
+display: inline-block;
+}
+.img-thumbnail{
+    position: relative;
+}
+.library_wrap li {
+    width: 170px;
+    height:135px;
+}
+.photo_menu{
+    padding:0 70px;
+}
+@media only screen and (max-width: 767px) {
+    .thumb img {
+    width: 90%;}
+.photo_menu {
+    padding: 0 51px;
+}
+.library_wrap li{
+    margin: 10px 0;
+}
+.right_column{
+    margin:0 0 40px
+}
+}
+@media only screen and (max-width: 480px) {
+    
+}
+@media only screen and (max-width: 320px) {
+    .sidr .sidr-inner {text-align: initial;width: 200px;}
+    body .sidr .sidr-inner li {
+    height: 64px;
+    width: 200px;
+   
+}
+body .sidr a{
+    font-size:1.5em;
+    line-height: 60px;
+}
+.fa-bars{
+    right: 15px;
+top: 215px;
+}
+.thumb{
+     margin:15px 0 10px;
+}
+.thumb img{
+    height: 120px;
+    width: 100%;
+
+}
+.navigation{
+    right: 23px;
+top: 7px;
+}
+.library_wrap {
+    margin-top: 38px;
+}
+.photo_menu {
+    padding: 0px 32px;
+}
+.lightbox-image-container img {
+       width: 217px !important ;
+    height: 301px !important; 
+    margin: 0 -31px; 
+}
+.lightbox-nav{
+    position: absolute;
+}
+.lightbox-nav .close{
+    top:0px;
+    right:-18px;
+    color: #181515;
+}
+.left_arrow {
+    display: block;
+    position: absolute;
+    left: -24px;
+    top: 158px;
+    cursor: pointer;
+    z-index: 6;
+}
+.btn-group{
+    width: 100%;
+}
+.right_arrow{
+    z-index: 6;
+    right:29px;
+    top:159px;
+}
+.contact_wrap h3{
+margin: 69px auto 10px;
+}
+.contact_wrap input{
+    width: 100%;
+}
+.contact_wrap .text, .textarea {
+    display: block;
+  width: 100%;
+    text-align: left;
+margin: 5px 4px;
+    vertical-align: top;
+}
+.contact_wrap textarea{
+    width: 100%;
+}
+.personal{
+    text-align: center;
+    
+}
+.about .img_container {
+    max-width: 100%;
+    margin: 0 0 10px;
+}
+.footer_contacts p, .name_copyright p{
+    font-size:0.8em;
+}
+.contact_wrap li{
+    width: 100%;
+}
+.social_networks li p{
+    margin:8px;
+    font-size: 0.7em;
+    
+}
+.about_me{
+    max-width: 100%;
+}
+.about_me a{
+    bottom:inherit;
+    margin-top: 25px;
+}
+.img_wrap img{
+    width: 100%;
+}
+.my_services{
+        top:60px;
+}
+h3{margin:20px 0;}
+.my_services .img_wrap {
+    float: left;
+    margin-bottom: 20px;
+}
+.my_services button {
+    margin-top: 24px;
+}
+
+/*	Mobile First	*/
+@media only screen and (min-width: 1920px) {
+    
+}
+@media only screen and (min-width: 1280px) {
+    
+}
+@media only screen and (min-width: 980px) {
+    
+}
+@media only screen and (min-width: 768px) {
+    
+}
+@media only screen and (min-width: 480px) {
+    
+}
+@media only screen and (min-width: 320px) {
+    
+}

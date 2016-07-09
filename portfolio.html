@@ -1,0 +1,22 @@
+<div class="name_header hidden-xs" >
+	<h1>Анастасия Рыбалова</h1>
+	<h2 class="photograph">Фотограф</h2>
+</div>
+<div class="navigation">
+		<a href="#/home">На главную |</a>
+		<p>Портфолио</p>
+	</div>
+<h3 class="h3_portfolio">Мое портфолио</h3>
+	<p class="text_portfolio">
+Портфолио фотографа — визитная карточка, которая призвана показать на деле, на что способен фотограф, как творческая личность.  На этой странице Вы сможете ознакомиться с моим творчеством и оценить качество моих работ. Портфолио разделено на разделы по жанрам. Чтобы просмотреть раздел, щелкните мышкой по соответствующей картинке. С отзывами о моих работах вы можете ознакомиться здесь.</p>
+	<div class="row">
+		<div class="col-sm-4 col-md-6 col-xs-6 "ng-repeat="album in data track by album.id">
+			<div class="thumb" >
+				<a href="#/{{album.name}}" class="albums">
+					<img ng-src="photos/{{album.name}}/{{album.photos[0].src}}" alt="meiyou" class="img-responsive">				
+				</a>
+				<p class="hint">{{album.name}}</p>
+			</div>
+		</div>
+	</div>
+</div>

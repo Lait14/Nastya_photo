@@ -1,0 +1,11 @@
+
+	<!--><div id="slides_control " ng-repeat="albums in data|filter:{name:album_name}">
+			<carousel interval="interval">
+        <slide ng-repeat="photos in albums.photos" active="photos.active">
+         <img ng-src="photos/{{album_name}}/{{photos.src}}" alt="">
+          <div class="carousel-caption">
+            <h4>Slide {{$index+1}}</h4>
+          </div>
+        </slide>
+      </carousel>
+	<-->

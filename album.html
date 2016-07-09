@@ -1,0 +1,21 @@
+<div class="name_header hidden-xs">
+  <h1>Фотограф в Москве</h1>
+  <h2 class="photograph">Анастасия Рыбалова</h2>
+</div>  
+<div class="navigation">
+		<a href="#/home">На главную |</a>
+		<p>Порфтолио</p>
+	</div>
+<div ng-repeat="albums in data|filter:{name:album_name}" class="library_wrap" ng-controller="albumCtrl">
+      <div class="row">
+      <menu class="photo_menu">
+         <li ng-repeat="photo in albums.photos track by $index" class="col-md-6 col-sm-3 col-xs-4" >
+         <a ng-click="openLightboxModal($index)">
+            <img ng-src="photos/{{album_name}}/{{photo.src}}" alt="" class="img-thumbnail img-responsive">  
+        </a>    
+        </li>
+        </menu>
+      </div> 
+   
+</div>
+

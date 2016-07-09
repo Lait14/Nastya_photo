@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- Latest compiled and minified CSS -->
+
+<link href="app/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="app/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.css">
+<link rel="stylesheet" href="app/font-awesome-4.6.3/css/font-awesome.min.css">
+<link rel="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.css" href="">
+<link rel="stylesheet" href="app/sidr/dist/stylesheets/jquery.sidr.dark.css">
+<link rel="stylesheet" href="app/animate.css/animate.css">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="media.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+ <script src="app/sidr/dist/jquery.sidr.min.js"></script>
+<script src="app/jquery-ui/jquery-ui.min.js"></script>
+<script src="app/matchHeight/dist/jquery.matchHeight.js"></script>
+<script src="app/angular/angular.min.js"></script>
+<script src="app/angular-route/angular-route.js"></script>
+<script src="app/angular-bootstrap/ui-bootstrap.min.js"></script>
+<script src="app/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="app/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.js"></script>
+<script src="main.js"></script>
+</head>
+<body ng-controller="aboutCtrl">
+	<div class="main_block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<div class="left_column">
+						<div class="head">
+						<h1>Thom <br>Sander</h1>
+							<div class="txt">
+							<h2>Photographer's portfolio</h2>
+							</div>
+						</div>
+						
+						<i class="fa fa-bars hidden-lg" aria-hidden="true"  style="color:white"></i>
+							<div class="nav">
+							<menu class="aside hidden-sm hidden-xs" >
+								<li><a href="#/">Home Page</a></li>
+								<li><a href="#/about">About</a></li>
+								<li><a href="#/portfolio">Portfolio</a></li>
+								<li><a href="#/my">My Services</a></li>
+								<li><a href="#/contact">Contact</a></li>
+							</menu>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 col-sm-12 col-xs-12">
+					<div class="right_column">
+						<div class="row">
+							<ng-view></ng-view>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-4">
+						<div class="name_copyright">
+							<p><span class="name">Thom <br>sander</span></p>
+							<p class="copyright">Coopyright 2016</p>
+						</div>
+				</div>
+				<div class="col-md-6 col-sm-6 footer_inf hidden-xs">
+					<p> Анастасия Рыбалова - профессиональный фотограф Москвы.
+Фотосъёмка знаменитостей. Фотосессия девушек. Рекламная съёмка. Фотосессия в студии. 
+Жизнь - всего лишь повод для фотографии. </p>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-8 footer_contacts">
+					<ul>
+					<li><a href="http://vk.com/nastyastar20"><i class="fa fa-vk"></i></a><p>vk.com/nastyastar20 </p></li>
+					<li><a href="http://vk.com/nastyastar20"><i class="fa fa-mobile"></i></a><p>8929 3455482 </p></li>
+					<li><a href="http://vk.com/nastyastar20"><i class="fa fa-envelope-o" aria-hidden="true"></i></a><p>nastya@gmail.com </p></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</footer>
+	<script src="app.js"></script>
+</body>
+</html>
